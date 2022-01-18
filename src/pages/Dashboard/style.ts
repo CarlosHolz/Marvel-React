@@ -1,9 +1,17 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
+export const Box = styled.main`
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 100%;
+    width: 100%;
+`;
+
 export const Title = styled.h1`
     font-size: 48px;
-    color: #3a3a3a;
+    color: #f00000;
     max-width: 450px;
     line-height: 56px;
     margin-top: 80px;
@@ -39,29 +47,33 @@ export const Form = styled.form`
 export const Card1 = styled.div`
     display: flex;
     flex-wrap: wrap;
+
     justify-content: center;
 `;
 
 export const Card2 = styled.div`
-    background: #f1f1f1;
-    height: 450px;
+    background: #ff0000;
+    height: 350px;
     width: 300px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
 
-    strong, 
-    p{
-        padding: 5px;
-        text-align: center;
+    strong {
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+    }
 
+    img{
+        width: 350px;
+        height: 300px;
     }
 
     div#img{
         background: #f1f1f1;
         background-size: cover;
 
-        height: 400px;
         width: 100%;
 
     }

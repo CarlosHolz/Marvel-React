@@ -7,7 +7,7 @@ export default createGlobalStyle`
         outline: 0;
     }
     body {
-        background: #f0f0f5;
+        background: #000;
     }
     body, input, button {
         font: 16px Roboto, sans-serif;
@@ -15,7 +15,7 @@ export default createGlobalStyle`
     #root {
         max-width: 960px;
         margin: 0 auto;
-        padding: 40px 20px;
+        padding: 15px 20px;
     }
     button {
         cursor: pointer;

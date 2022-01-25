@@ -28,13 +28,13 @@ const Dashboard: React.FC = () => {
 
     return (
         <>
-            <Title>Personagens Marvel</Title>
+            <Title><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="" /></Title>
 
             <Form>
                 <input value= {characters} onChange={e => setCharacters(e.target.value)} placeholder="Digite o nome de um personagem..."/>
                 <button type="submit">Pesquisar</button>
             </Form>
-
+            
           <Box>
             <Card1>
                 {characters.map(characters => {
